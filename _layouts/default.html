@@ -18,28 +18,43 @@
   <meta name="description" content="{{ site.descripton }}" />
   <link rel="stylesheet" href="{{ site.style }}" type="text/css" />
   <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-  <link rel="shortcut icon" href="/blog/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    function loadScript(url, callback) {
+        var script = document.createElement('script')
+        script.type = 'text/javascript';
+        script.src = url;
+
+
+        if (script.readyState) { //for ie
+            script.onreadystatechange = function() {
+                if (script.readyState == 'loaded' || script.readyState == 'complete') {
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else { //other browser
+            script.onload = function() {
+                callback();
+            };
+        }
+        document.getElementsByTagName('head')[0].appendChild(script);
+    }
+  </script>
 </head>
 <body>
-    {% include head.html %} 
+    {% include head.html %}
   <section id="content">
     <article id="contenter">
       {{ content }}
     </article>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'suckbunnyblog'; // required: replace example with your forum shortname 这个地方需要改成你配置的网站名
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-   </script>
-   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-   <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-   </section>
+  </section>
     {% include foot.html %}
+    <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js" type="text/javascript"></script> -->
+    <script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd6e91e2cc4ce1be3d8889a76a5d64892' type='text/javascript'%3E%3C/script%3E"));
+    </script>
 </body>
 </html>
