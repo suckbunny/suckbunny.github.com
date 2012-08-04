@@ -4,9 +4,7 @@ title: First Blog
 description: 简单介绍下Markdown
 ---
 
-**声明：** 本文转载自[src1]。
-
-[src1]:http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/basics.md target="_blank"
+**声明：** 本文转载自<a href=http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/basics.md target="_blank">这里</a>。
 
 Markdown: Basics
 ================
@@ -14,21 +12,20 @@ Markdown: Basics
 Getting the Gist of Markdown's Formatting Syntax
 ------------------------------------------------
 
-此页提供了 Markdown 的简单概念， [语法说明][s] 页提供了完整详细的文档，说明了每项功能。但是 Markdown 其实很简单就可以上手，此页文档提供了一些范例，并且每个范例都会提供输出的 HTML 结果。
+此页提供了 Markdown 的简单概念，<a href=http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md target="_blank">语法说明</a>页提供了完整详细的文档，说明了每项功能。
 
-[s]: http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md target="_blank" "Markdown Syntax"
-[d]: http://daringfireball.net/projects/markdown/dingus target="_blank" "Markdown Dingus"
+但是 Markdown 其实很简单就可以上手，此页文档提供了一些范例，并且每个范例都会提供输出的 HTML 结果。
 
-其实直接试试看也是一个很不错的方法， [Dingus][d] 是一个网页应用程序，你可以把自已编写的 Markdown 文档转成 XHTML。
+其实直接试试看也是一个很不错的方法，<a href=http://daringfireball.net/projects/markdown/dingus target="_blank">Dingus</a>是一个网页应用程序，你可以把自已编写的 Markdown 文档转成 XHTML。
 
 ## 段落、标题、区块代码 ##
 
 一个段落是由一个以上的连接的行句组成，而一个以上的空行则会划分出不同的段落（空行的定义是显示上看起来像是空行，就被视为空行，例如有一行只有空白和 tab，那该行也会被视为空行），一般的段落不需要用空白或换行缩进。
 
-Markdown 支持两种标题的语法，[Setext] [1] 和 [atx] [2] 形式。Setext 形式是用底线的形式，利用 `=` （最高阶标题）和 `-` （第二阶标题），Atx 形式在行首插入 1 到 6 个 `#` ，对应到标题 1 到 6 阶。
+Markdown 支持两种标题的语法，<a href=http://docutils.sourceforge.net/mirror/setext.html target="_blank">Setext</a>和<a href=http://www.aaronsw.com/2002/atx/ target="_blank">atx</a>形式。
 
-[1]: http://docutils.sourceforge.net/mirror/setext.html target="_blank"
-[2]: http://www.aaronsw.com/2002/atx/ target="_blank"
+Setext 形式是用底线的形式，利用 `=` （最高阶标题）和 `-` （第二阶标题），Atx 形式在行首插入 1 到 6 个 `#` ，对应到标题 1 到 6 阶。
+
 
 区块引用则使用 email 形式的 '`>`' 角括号。
 
