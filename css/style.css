@@ -199,7 +199,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .entry .title               { margin-bottom: 10px; font-family: Georgia; padding: 0 0; font-size: 26px; font-weight: 400; line-height: 32px; color: #383535; text-align: center; text-shadow: 1px 1px #FFFFFF; text-transform: uppercase; }
 .entry .meta                { text-align: center; color: #888; font-family: "Times New Roman",Times,serif; font-size: 13px; text-indent: 0; font-weight: 600; }
 .entry .meta .date          { color: #888; } .entry .meta .author { padding-right: 4px; }
-.entry .description         { padding: 8px 12px; font-style: italic; text-align: center; color: #888; text-indent: 0; border-top: 1px dashed #a0a0a0; border-bottom: 1px dashed #a0a0a0; }
+.entry .description         { padding: 8px 12px; text-align: center; color: #888; text-indent: 0; border-top: 1px dashed #a0a0a0; border-bottom: 1px dashed #a0a0a0; }
 .entry img                  { padding: 3px 3px; border-radius: 8px 8px; border: 1px solid #DEDEDE; box-shadow: 0 0 2px #d0d0d0; border-radius: 10px 10px; }
 .entry img.img-right        { margin: 5px 0px 5px 10px; display: inline; float: right; }
 .entry img.img-center       { margin: 5px auto; display: block; }
@@ -224,4 +224,4 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .article-box .title a       { color: #e8e8e8; display: block; padding-left: 10px; border-top: 1px dashed #a8a8a8; border-right: 1px dashed #a8a8a8; border-bottom: 1px dashed #a8a8a8; border-radius: 3px 3px; }
 .article-box .title a:hover { color: #fefefe; text-decoration: none; }
 .article-box .date          { font-family: Georgia; color: #888; font-style: italic; }
-.article-box .desc          { line-height: 20px; color: #e8e8e8; font-family: Georgia; }
+.article-box .desc          { line-height: 20px; color: #e8e8e8; font-family: Georgia;}
