@@ -4,17 +4,11 @@ title: First Blog
 description: 简单介绍下Markdown
 ---
 
-**声明：** 这份文档派生(fork)于[繁体中文版](http://markdown.tw/)，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里[查看它的源文件][src1]。「繁体中文版的原始文件可以[查看这里][src]」--By @[riku][t] / 本项目托管于 [GitCafe][g]
+**声明：** 本文转载自[src1]。
 
-**注：** 本项目同时也托管于 [Github][]上，请通过 fork＋pull request 方式来帮忙改进本项目。
+[src1]:http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/basics.md target="_blank"
 
-[src1]:http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/basics.md
-[src]: https://github.com/othree/markdown-syntax-zhtw/blob/master/basics.md
-[t]: http://twitter.com/riku
-[g]: http://gitcafe.com/riku/Markdown-Syntax-CN
-[Github]: https://github.com/riku/Markdown-Syntax-CN
-
-Markdown: Basics （快速入门） / ([点击查看完整语法说明](./index.html))
+Markdown: Basics
 ================
 
 Getting the Gist of Markdown's Formatting Syntax
@@ -22,8 +16,8 @@ Getting the Gist of Markdown's Formatting Syntax
 
 此页提供了 Markdown 的简单概念， [语法说明][s] 页提供了完整详细的文档，说明了每项功能。但是 Markdown 其实很简单就可以上手，此页文档提供了一些范例，并且每个范例都会提供输出的 HTML 结果。
 
-[s]: http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md "Markdown Syntax"
-[d]: http://daringfireball.net/projects/markdown/dingus "Markdown Dingus"
+[s]: http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md target="_blank" "Markdown Syntax"
+[d]: http://daringfireball.net/projects/markdown/dingus target="_blank" "Markdown Dingus"
 
 其实直接试试看也是一个很不错的方法， [Dingus][d] 是一个网页应用程序，你可以把自已编写的 Markdown 文档转成 XHTML。
 
@@ -33,8 +27,8 @@ Getting the Gist of Markdown's Formatting Syntax
 
 Markdown 支持两种标题的语法，[Setext] [1] 和 [atx] [2] 形式。Setext 形式是用底线的形式，利用 `=` （最高阶标题）和 `-` （第二阶标题），Atx 形式在行首插入 1 到 6 个 `#` ，对应到标题 1 到 6 阶。
 
-[1]: http://docutils.sourceforge.net/mirror/setext.html
-[2]: http://www.aaronsw.com/2002/atx/
+[1]: http://docutils.sourceforge.net/mirror/setext.html target="_blank"
+[2]: http://www.aaronsw.com/2002/atx/ target="_blank"
 
 区块引用则使用 email 形式的 '`>`' 角括号。
 

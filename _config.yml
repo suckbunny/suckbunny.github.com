@@ -1,6 +1,8 @@
+server:         true
+auto:           true
 markdown:         rdiscount
 pygments:         true
-paginate:         4
+paginate:         5
 
 title:            Black Cube Theme
 url:              http://www.pizn.me
