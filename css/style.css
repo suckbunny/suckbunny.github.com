@@ -76,7 +76,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .content                    { width: 100%; height: auto; min-height: 550px; }
 .content-cnt                { width: 900px; margin:  30px auto; height:  auto; }
 .content-cnt .main          { width: 610px; height: auto; margin-right: 40px; float: left; }
-.content-cnt .main-excerpt  { margin-bottom: 10px; padding: 10px 0; border-bottom: 1px dashed #bebebe; }
+.content-cnt .main-excerpt  { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px dashed #bebebe; }
 .content-cnt .main-excerpt .date
                             { color: #888; }
 .content-cnt .main-excerpt-title
@@ -122,7 +122,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .foot-cnt-det .about        { float: left; margin-right: 40px; width: 340px; height:  auto; padding:  10px 0; }
 .foot-cnt-det .about p      { line-height: 20px; color: #a0a0a0; margin-bottom: 12px; }
 .foot-cnt-det .follow       { float: left; width: 240px; height:  auto; padding:  10px 0; }
-.foot-cnt-det .follow li    { width: 32px; height: 32px; float: left; margin-right: 15px; margin-bottom: 10px; }
+.foot-cnt-det .follow li    { width: 32px; height: 32px; float: left; margin-right: 15px; margin-bottom: 15px; }
 .foot-cnt-det .follow li a  { text-indent: -999999em; overflow: hidden; width: 32px; height: 32px; display: block; border: 3px solid #282828; border-radius: 18px 18px; }
 .foot-cnt-det .follow li a:hover
                             { border: 3px solid #000000; }
@@ -220,7 +220,7 @@ a.external {
 a.external:hover {background-position:right -14px;}
 /** entry special **/
 .entry .title               { margin-bottom: 10px; font-family: Georgia; padding: 0 0; font-size: 26px; font-weight: 400; line-height: 32px; color: #383535; text-align: center; text-shadow: 1px 1px #FFFFFF; text-transform: uppercase; }
-.entry .meta                { text-align: center; color: #888; font-family: serif,"Times New Roman",Times; font-size: 13px; text-indent: 0; font-weight: 600; }
+.entry .meta                { text-align: center; color: #888; font-family: "Times New Roman",Times,serif; font-size: 13px; text-indent: 0; font-weight: 600; }
 .entry .meta .date          { color: #888; } .entry .meta .author { padding-right: 4px; }
 .entry .description         { padding: 8px 12px; text-align: center; color: #888; text-indent: 0; border-top: 1px dashed #a0a0a0; border-bottom: 1px dashed #a0a0a0; }
 .entry img                  { padding: 3px 3px; border-radius: 8px 8px; border: 1px solid #DEDEDE; box-shadow: 0 0 2px #d0d0d0; border-radius: 10px 10px; }
