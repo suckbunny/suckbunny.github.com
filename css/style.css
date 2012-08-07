@@ -205,6 +205,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     padding: 15px;
 }
 pre ol {
+    background-color: #ffffff
     list-style-type: decimal;
     margin-left: 25px;
 }
