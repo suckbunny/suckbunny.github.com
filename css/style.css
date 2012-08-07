@@ -61,7 +61,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .header-cnt                 { width: 900px; height: 54px; padding-top: 15px; margin: 0 auto; position: relative; }
 .header-cnt .logo           { padding: 4px 4px; height: 80px; background: #2f3133; border-radius: 0 0 14px 14px; position: absolute; top: -5px; left: 0; text-align: center; box-shadow: -1px -1px 2px #333 inset; box-shadow: 0px 0px 5px #272c32; }
 .header-cnt .logo-cnt       { height: 78px; border-radius: 0 0 10px 10px; border-left: 1px dashed #aaa; border-right: 1px dashed #aaa; border-bottom: 1px dashed #aaa; }
-.header-cnt .logo-cnt h1    { padding: 0px 10px 0px 10px; font-size: 28px; color: #eeeeee; font-family: 骞煎渾锛?Times New Roman",Times,serif; }
+.header-cnt .logo-cnt h1    { padding: 0px 10px 0px 10px; font-size: 28px; color: #eeeeee; font-family: serif,"Times New Roman",Times; }
 .header-cnt .logo-cnt h1 a  { color: #eeeeee; }
 .header-cnt .logo-cnt a:hover
                             { text-decoration: none; color: #f6f6f6; text-shadow: 1px 1px 2px #444; }
@@ -156,7 +156,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                 text
 --------------------------------------------*/
 /** entry **/
-.entry                      { padding-top: 10px; color: #333; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
+.entry                      { padding-top: 10px; color: #333; font-family: serif,Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6
                             { margin: 0; padding: 0; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1                   { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #383535; font-weight: 700; border-bottom: 1px dashed #a8a8a8; }
@@ -198,11 +198,12 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     background-color: #e9e9e9;
     border: 1px solid #EEEEEE;
     border-radius: 4px 4px 4px 4px;
-    color: #FFFFFF;
+    color: #B9BDB6;
     font-size: 14px;
     margin-bottom: 20px;
     overflow: auto;
     padding: 15px;
+	font: 12px/1.5 Monaco,serif;
 }
 pre ol {
     list-style-type: decimal;
