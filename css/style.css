@@ -61,7 +61,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .header-cnt                 { width: 900px; height: 54px; padding-top: 15px; margin: 0 auto; position: relative; }
 .header-cnt .logo           { padding: 4px 4px; height: 80px; background: #2f3133; border-radius: 0 0 14px 14px; position: absolute; top: -5px; left: 0; text-align: center; box-shadow: -1px -1px 2px #333 inset; box-shadow: 0px 0px 5px #272c32; }
 .header-cnt .logo-cnt       { height: 78px; border-radius: 0 0 10px 10px; border-left: 1px dashed #aaa; border-right: 1px dashed #aaa; border-bottom: 1px dashed #aaa; }
-.header-cnt .logo-cnt h1    { padding: 0px 10px 0px 10px; font-size: 28px; color: #eeeeee; font-family: "Times New Roman",Times,serif; }
+.header-cnt .logo-cnt h1    { padding: 0px 10px 0px 10px; font-size: 28px; color: #eeeeee; font-family: 骞煎渾锛?Times New Roman",Times,serif; }
 .header-cnt .logo-cnt h1 a  { color: #eeeeee; }
 .header-cnt .logo-cnt a:hover
                             { text-decoration: none; color: #f6f6f6; text-shadow: 1px 1px 2px #444; }
@@ -73,7 +73,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .header-cnt .nav .current a { color: #fefefe; }
 
 /** content **/
-.content                    { width: 100%; height: auto; min-height: 550px; font-family: "Microsoft Yahei","Times New Roman",Times,serif; }
+.content                    { width: 100%; height: auto; min-height: 550px; }
 .content-cnt                { width: 900px; margin:  30px auto; height:  auto; }
 .content-cnt .main          { width: 610px; height: auto; margin-right: 40px; float: left; }
 .content-cnt .main-excerpt  { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px dashed #bebebe; }
