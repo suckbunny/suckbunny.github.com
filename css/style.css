@@ -200,10 +200,10 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     border-radius: 4px 4px 4px 4px;
     color: #B9BDB6;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     overflow: auto;
     padding: 15px;
-	font: 12px Courier New,Monaco,serif
+	font: 12px serif,Monaco
 }
 pre ol {
     list-style-type: decimal;
