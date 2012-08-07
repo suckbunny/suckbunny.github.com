@@ -16,7 +16,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
                             { display:block; }
 body,button,input,select,textarea
-                            { font:12px/1.5 tahoma,arial,"Microsoft Yahei","Microsoft Jhenghei"; }
+                            { font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Microsoft Jhenghei"; }
 input,select,textarea       { font-size:100%; }
 table                       { border-collapse:collapse;border-spacing:0; }
 th                          { text-align:inherit; }
@@ -203,6 +203,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     margin-bottom: 20px;
     overflow: auto;
     padding: 15px;
+	font-family: "Microsoft Yahei"
 }
 pre ol {
     list-style-type: decimal;
