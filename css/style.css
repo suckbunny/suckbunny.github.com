@@ -201,6 +201,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     color: #B9BDB6;
     font-size: 14px;
     margin-bottom: 20px;
+	padding: 10px 0 -10px 0;
    /* overflow: auto;
     padding: 15px;*/
 }
