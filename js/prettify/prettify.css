@@ -5,17 +5,19 @@
  * http://CodeTunnel.com/blog/post/71/google-code-prettify-obsidian-theme
  */
 
-.str{color: #EC7600;}
-.kwd{color:#93C763;}
-.com{color:#66747B;}
-.typ{color:#678CB1;}
-.lit{color:#FACD22;}
-.pun{color:#F1F2F3;}
-.pln{color:#F1F2F3;}
 .tag{color:#8AC763;}
 .atn{color:#E0E2E4;}
 .atv{color:#EC7600;}
 .dec{color:purple;}
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .linenums .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
 pre.prettyprint {border:1px solid #888;}
 ol.linenums{margin: 0 0 0 33px;}
 ol.linenums li {
