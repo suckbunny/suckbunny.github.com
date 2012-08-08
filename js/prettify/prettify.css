@@ -20,7 +20,7 @@ pre.prettyprint {border:1px solid #888;color:#000}
 ol.linenums{margin: 0 0 0 33px;}
 ol.linenums li {
   padding-left: 12px;
-  color: #bebec5;
+  color: #000;
   line-height: 18px;
 }
 .prettyprint{background:#e7e7e9;color:#000}
