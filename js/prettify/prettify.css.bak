@@ -16,7 +16,7 @@
 
 .prettyprint {
   padding: 8px;
-  background-color: #000000;
+  background-color: #e7e7e9;
   border: 1px solid #e1e1e8;
 }
 .prettyprint.linenums {
