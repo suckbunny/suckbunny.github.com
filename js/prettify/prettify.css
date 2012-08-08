@@ -17,16 +17,12 @@
 .atv{color:#EC7600;}
 .dec{color:purple;}
 pre.prettyprint {border:1px solid #888;}
-
+ol.linenums{margin-top:0;margin-bottom:0;}
 .prettyprint{background:#e7e7e9;}
-ol.linenums {
-  margin: 0 0 0 33px; /* IE indents via margin-left */
-} 
-ol.linenums li {
-  padding-left: 12px;
-  color: #bebec5;
-  line-height: 18px;
-  text-shadow: 0 1px 0 #fff;
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
 }
 @media print {
     .str{color:#060;}
