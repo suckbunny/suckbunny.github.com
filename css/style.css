@@ -156,7 +156,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                 text
 --------------------------------------------*/
 /** entry **/
-.entry                      { /*padding-top: 10px;*/ color: #333; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
+.entry                      { padding-top: 10px; color: #333; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6
                             { margin: 0; padding: 0; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1                   { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #383535; font-weight: 700; border-bottom: 1px dashed #a8a8a8; }
@@ -201,6 +201,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     color: #B9BDB6;
     font-size: 14px;
     margin-bottom: 20px;
+	padding-bottom: -20px;
    /* overflow: auto;
     padding: 15px;*/
 }
@@ -215,7 +216,7 @@ a.external {
 a.external:hover {background-position:right -14px;}
 /** entry special **/
 .entry .title               { margin-bottom: 10px; font-family: Georgia; padding: 0 0; font-size: 26px; font-weight: 400; line-height: 32px; color: #383535; text-align: center; text-shadow: 1px 1px #FFFFFF; text-transform: uppercase; }
-.entry .meta                { text-align: center; color: #888; font-family: serif,"Times New Roman",Times; font-size: 13px; text-indent: 0; font-weight: 600; }
+.entry .meta                { text-align: center; color: #888; font-family: "Times New Roman",Times,serif; font-size: 13px; text-indent: 0; font-weight: 600; }
 .entry .meta .date          { color: #888; } .entry .meta .author { padding-right: 4px; }
 .entry .description         { padding: 8px 12px; text-align: center; color: #888; text-indent: 0; border-top: 1px dashed #a0a0a0; border-bottom: 1px dashed #a0a0a0; }
 .entry img                  { padding: 3px 3px; border-radius: 8px 8px; border: 1px solid #DEDEDE; box-shadow: 0 0 2px #d0d0d0; border-radius: 10px 10px; }
