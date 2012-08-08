@@ -5,10 +5,6 @@
  * http://CodeTunnel.com/blog/post/71/google-code-prettify-obsidian-theme
  */
 
-.tag{color:#8AC763;}
-.atn{color:#E0E2E4;}
-.atv{color:#EC7600;}
-.dec{color:purple;}
 .com { color: #93a1a1; }
 .lit { color: #195f91; }
 .pun, .opn, .clo { color: #93a1a1; }
@@ -18,28 +14,24 @@
 .typ, .atn, .dec, .var { color: teal; }
 .pln { color: #48484c; }
 
-pre.prettyprint {border:1px solid #888;}
-ol.linenums{margin: 0 0 0 33px;}
-ol.linenums li {
-  padding-left: 12px;
-  color: #000;
-  line-height: 18px;
+.prettyprint {
+  padding: 8px;
+  background-color: #e7e7e9;
+  border: 1px solid #e1e1e8;
 }
-.prettyprint{background:#e7e7e9;}
 .prettyprint.linenums {
   -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
      -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
           box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
 }
-@media print {
-    .str{color:#060;}
-    .kwd{color:#006;font-weight:bold;}
-    .com{color:#600;font-style:italic;}
-    .typ{color:#404;font-weight:bold;}
-    .lit{color:#044;}
-    .pun{color:#440;}
-    .pln{color:#000;}
-    .tag{color:#006;font-weight:bold;}
-    .atn{color:#404;}
-    .atv{color:#060;}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px; /* IE indents via margin-left */
+} 
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 18px;
+  text-shadow: 0 1px 0 #fff;
 }
