@@ -16,7 +16,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
                             { display:block; }
 body,button,input,select,textarea
-                            { font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Microsoft Jhenghei"; }
+                            { font:12px/1.5 tahoma,arial,"Microsoft Yahei","Microsoft Jhenghei"; }
 input,select,textarea       { font-size:100%; }
 table                       { border-collapse:collapse;border-spacing:0; }
 th                          { text-align:inherit; }
@@ -156,7 +156,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                 text
 --------------------------------------------*/
 /** entry **/
-.entry                      { padding-top: 10px; color: #333; font-family: Georgia,"Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
+.entry                      { padding-top: 10px; color: #333; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6
                             { margin: 0; padding: 0; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1                   { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #383535; font-weight: 700; border-bottom: 1px dashed #a8a8a8; }
@@ -200,13 +200,13 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     border-radius: 4px 4px 4px 4px;
     color: #B9BDB6;
     font-size: 14px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     overflow: auto;
     padding: 15px;
 }
 pre ol {
     list-style-type: decimal;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 a.external {
     background: url("/images/icons.gif") no-repeat scroll right 1px transparent;
