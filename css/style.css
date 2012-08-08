@@ -16,7 +16,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
                             { display:block; }
 body,button,input,select,textarea
-                            { font:12px/1.5 tahoma,arial,"Microsoft Yahei","Microsoft Jhenghei"; }
+                            { font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Microsoft Jhenghei"; }
 input,select,textarea       { font-size:100%; }
 table                       { border-collapse:collapse;border-spacing:0; }
 th                          { text-align:inherit; }
@@ -189,7 +189,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                             { border-right: none; }
 .entry * tr th              { font-weight: 700; }
 .entry em                   { font-size: 14px;  color: #555; }
-.entry strong               { font-weight: 700; font-family: "Microsoft Yahei","Times New Roman",Times,serif; }
+.entry strong               { font-weight: 700; font-family: "Times New Roman",Times,serif; }
 .entry a                    { border-bottom: 1px dotted #686868; color: #454545; }
 .entry a:hover              { /*background: #e8e8e8;*/ border-bottom: 1px solid #777; text-decoration: none; }
 /*.entry pre                  { background-color: #303030; border-left: 5px solid #1f1f1f; border-top: 1px solid #1f1f1f; border-right: 1px solid #1f1f1f; border-bottom: 1px solid #1f1f1f; font: 12px/1.5 Monaco,serif; margin: 10px 0 10px 0px; overflow:  auto; color: #e8e8e8; border-radius: 3px 3px 3px 3px; }*/
@@ -197,13 +197,12 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .entry pre {
     background-color: #e9e9e9;
     border: 1px solid #EEEEEE;
-    border-radius: 4px 4px 0px 4px;
+    border-radius: 4px 4px 4px 4px;
     color: #B9BDB6;
     font-size: 14px;
     margin-bottom: 0px;
     overflow: auto;
     padding: 15px;
-	font-family: "Microsoft Yahei",
 }
 pre ol {
     list-style-type: decimal;
@@ -216,7 +215,7 @@ a.external {
 a.external:hover {background-position:right -14px;}
 /** entry special **/
 .entry .title               { margin-bottom: 10px; font-family: Georgia; padding: 0 0; font-size: 26px; font-weight: 400; line-height: 32px; color: #383535; text-align: center; text-shadow: 1px 1px #FFFFFF; text-transform: uppercase; }
-.entry .meta                { text-align: center; color: #888; font-family: "Microsoft Yahei","Times New Roman",Times,serif; font-size: 13px; text-indent: 0; font-weight: 600; }
+.entry .meta                { text-align: center; color: #888; font-family: "Times New Roman",Times,serif; font-size: 13px; text-indent: 0; font-weight: 600; }
 .entry .meta .date          { color: #888; } .entry .meta .author { padding-right: 4px; }
 .entry .description         { padding: 8px 12px; text-align: center; color: #888; text-indent: 0; border-top: 1px dashed #a0a0a0; border-bottom: 1px dashed #a0a0a0; }
 .entry img                  { padding: 3px 3px; border-radius: 8px 8px; border: 1px solid #DEDEDE; box-shadow: 0 0 2px #d0d0d0; border-radius: 10px 10px; }
