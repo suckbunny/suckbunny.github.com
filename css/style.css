@@ -156,7 +156,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                 text
 --------------------------------------------*/
 /** entry **/
-.entry                      { padding-top: 10px; color: #333; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
+.entry                      { padding-top: 10px; color: #333; font-family: "Microsoft Yahei",Georgia, "Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6
                             { margin: 0; padding: 0; font-family: Georgia, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1                   { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #383535; font-weight: 700; border-bottom: 1px dashed #a8a8a8; }
@@ -206,7 +206,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 }
 pre ol {
     list-style-type: decimal;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 a.external {
     background: url("/images/icons.gif") no-repeat scroll right 1px transparent;
