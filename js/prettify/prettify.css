@@ -18,6 +18,10 @@
 .dec{color:purple;}
 pre.prettyprint {border:1px solid #888;}
 ol.linenums{margin: 0 0 0 33px;}
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+}
 .prettyprint{background:#e7e7e9;}
 .prettyprint.linenums {
   -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
