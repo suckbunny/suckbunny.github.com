@@ -200,20 +200,19 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 	overflow:  auto; 
 	color:  #a0a0a0; 
 	border-radius: 6px 6px 6px 6px; }*/
-.entry code  {padding: 3.7px 7px; background: #e7e7e9; font: 12px Monaco,serif; color: #ff00ff; border-radius: 4px 4px;border: 1px solid #e0e0e0;}
+.entry code  {padding: 3.7px 7px; background: #e7e7e9; font: 14px Monaco,serif; color: #ff00ff; border-radius: 4px 4px;border: 1px solid #e0e0e0;}
 .entry pre {
     background: #e7e7e9;
     border: 1px solid #e0e0e0;
     border-radius: 6px 6px 6px 6px;
-    font-size: 14px;
     margin-bottom: 20px
-	font: 12px Monaco,serif;
+	font: 14px Monaco,serif;
    /* overflow: auto;
     padding: 15px;*/
 }
 pre ol {
     list-style-type: decimal;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 a.external {
     background: url("/images/icons.gif") no-repeat scroll right 1px transparent;
