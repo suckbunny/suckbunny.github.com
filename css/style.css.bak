@@ -18,7 +18,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
 body,button,input,select,textarea
                             { font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Microsoft Jhenghei"; }
 input,select,textarea       { font-size:100%; }
-table                       { border-collapse:collapse;border-spacing:0; }
+/*table                       { border-collapse:collapse;border-spacing:0; }*/
 th                          { text-align:inherit; }
 fieldset,img,a img          { border:0; }
 iframe                      { display:block; }
@@ -200,7 +200,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 	overflow:  auto; 
 	color:  #a0a0a0; 
 	border-radius: 6px 6px 6px 6px; }*/
-.entry code  {padding: 3.7px 7px; background: #e7e7e9; font: 14px Consolas,serif; color: #ff00ff; border-radius: 4px 4px;border: 1.5px solid #e7e7e9;}
+.entry code  {padding: 3.7px 7px; background: #e7e7e9; font: 14px Consolas,serif; color: #ff00ff; border-radius: 4px 4px 4px 4px;border: 1.5px solid #e7e7e9;}
 .entry pre {
     background: #e7e7e9;
     border: 1px solid #e0e0e0;
@@ -211,7 +211,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     padding: 15px;*/
 }
 pre ol {
-    list-style-type: decimal;
+    /*list-style-type: decimal;*/
     margin-left: 20px;
 }
 a.external {

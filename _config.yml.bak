@@ -4,13 +4,13 @@ markdown:         rdiscount
 pygments:         true
 paginate:         5
 
-title:            Suck&Bunny
+title:            Black Cube Theme
 url:              http://www.pizn.me
 feed:             /atom.xml
 author:
     name:         suckbunny
     email:        bunnypaladin@gmail.com
-description:      "My Blog"
+description:      "PIZn's blog theme -- Black Cube Theme 1.0 "
 
 about: 	"我只是一个统计本科毕业的R&LaTeX&knitr爱好者."
 follow:
