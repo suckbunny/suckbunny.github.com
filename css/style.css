@@ -12,13 +12,14 @@
                 reset
 --------------------------------------------*/
 html                        { color:#000;background:#fff; }
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,/*pre,*/code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section                  { margin:0;padding:0; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section           
+                            { margin:auto;padding:auto; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
                             { display:block; }
 body,button,input,select,textarea
                             { font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Microsoft Jhenghei"; }
 input,select,textarea       { font-size:100%; }
-/*table                       { border-collapse:collapse;border-spacing:0; }*/
+table                       { border-collapse:collapse;border-spacing:0; }
 th                          { text-align:inherit; }
 fieldset,img,a img          { border:0; }
 iframe                      { display:block; }
@@ -211,7 +212,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     padding: 15px;*/
 }
 pre ol {
-    /*list-style-type: decimal;*/
+    list-style-type: decimal;
     margin-left: 20px;
 }
 a.external {
