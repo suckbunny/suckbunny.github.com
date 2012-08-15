@@ -75,7 +75,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 
 /** content **/
 .content                    { width: 100%; height: auto; min-height: 550px; }
-.content-cnt                { width: 900px; margin:  30px auto; height:  auto; }
+.content-cnt                { width: 900px; margin: 30px auto; height: auto; }
 .content-cnt .main          { width: 610px; height: auto; margin-right: 40px; float: left; }
 .content-cnt .main-excerpt  { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px dashed #bebebe; }
 .content-cnt .main-excerpt .date
@@ -157,7 +157,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                 text
 --------------------------------------------*/
 /** entry **/
-.entry                      { /*padding-bottom: 10px;padding-top: 10px;*/ color: #333; font-family: "Microsoft Yahei",Georgia, "Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
+.entry                      { padding-bottom: -10px;padding-top: 10px;color: #333; font-family: "Microsoft Yahei",Georgia, "Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6
                             { margin: 0; padding: 0; font-family: "Microsoft Yahei",Georgia, "Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .entry h1                   { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #383535; font-weight: 700; border-bottom: 1px dashed #a8a8a8; }
@@ -203,14 +203,14 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 	border-radius: 6px 6px 6px 6px; }*/
 .entry code  {padding: 3.7px 7px; background: #e7e7e9; font: 14px Consolas,serif; color: #ff00ff; border-radius: 4px 4px 4px 4px;border: 1.5px solid #e7e7e9;}
 .entry pre {
+    padding: 0px 0px -20px 0px;
     background: #e7e7e9;
     border: 1px solid #e0e0e0;
     border-radius: 6px 6px 6px 6px;
-	padding-bottom: -20px;
     margin-bottom: 20px;
 	font: 14px Consolas,serif;
-   /* overflow: auto;
-    padding: 15px;*/
+    overflow: auto;
+    padding: 15px;
 }
 pre ol {
     list-style-type: decimal;
