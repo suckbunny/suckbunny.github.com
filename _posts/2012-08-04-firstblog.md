@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Blog
-description: 简单介绍下Markdown
+description: Markdown
 ---
 
 **声明：** 本文转载自[这里][1]。
