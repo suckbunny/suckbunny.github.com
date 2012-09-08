@@ -1,24 +1,21 @@
-server:         true
-auto:           true
-markdown:         rdiscount
-pygments:         true
-paginate:         5
+server: true
+auto: true
+markdown: rdiscount
+pygments: true
+paginate: 5
 
-title:            Suck&Bunny
-url:              http://www.pizn.me
-feed:             /atom.xml
-author:
-    name:         suckbunny
-    email:        bunnypaladin@gmail.com
-description:      "My Blog"
+title: Suck&Bunny
+url: http://www.pizn.me
+author: 
+    name: suckbunny
+    email: bunnypaladin@gmail.com
+description: "My Blog"
 
-about: 	"æˆ‘åªæ˜¯ä¸€ä¸ªç»Ÿè®¡æœ¬ç§‘æ¯•ä¸šçš„R&LaTeX&knitrçˆ±å¥½è€…."
-follow:
-    github:       https://github.com/suckbunny
-    gmail:        https://plus.google.com/u/0/?tab=wX
-description:      "My Blog"
-
-
-style: 			  /css/style.css
-blogName: 		  LoveBunny
-blogDesc: 		  æ„¿æ¥ä¸‹å»çš„è·¯æˆ‘ä»¬ä¸€èµ·èµ°è¿‡.
+about: "ÎÒÖ»ÊÇÒ»¸öÍ³¼Æ±¾¿Æ±ÏÒµµÄR&LaTeX&knitr°®ºÃÕß."
+follow: 
+    github: https://github.com/suckbunny
+    gmail:  https://plus.google.com/u/0/?tab=wX
+description: "My Blog"
+style: /css/style.css
+blogName: LoveBunny
+blogDesc: Ô¸½ÓÏÂÈ¥µÄÂ·ÎÒÃÇÒ»Æğ×ß¹ı.
