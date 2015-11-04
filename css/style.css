@@ -101,7 +101,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .content-cnt .aside .box .title
                             { font-size: 14px; line-height: 24px; border-bottom: 1px dashed #888; font-family: Georgia; }
 .content-cnt .aside .box ul { padding: 10px 0 0; }
-.content-cnt .aside .box li { line-height: 20px; margin-bottom: 4px; color: #fefefe; }
+.content-cnt .aside .box li { line-height: 20px; margin-bottom: 4px; color: #fefefe; word-wrap: break-word;}
 .content-cnt .aside .box li a
                             { margin-left: 8px; color: #a0a0a0; }
 .content-cnt .aside .box li a:hover
@@ -168,7 +168,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
                             { border: 0 none; }
 .entry p                    { font-size: 13px; line-height: 25px; margin-bottom: 15px; }
 .entry > p:first-child      { margin: 0.8em 0; text-indent: 0; }
-.entry ul, .entry ol        { padding-bottom: 0px; margin-left: 24px; margin-top: 0.6em; }
+.entry ul, .entry ol        { padding-bottom: 0px; margin-left: 5%; margin-top: 0.6em; }
 .entry ul li, .entry ol li  { font-size: 13px; color: #555; margin: 0.5em 0; }
 .entry ul li                { list-style-type: square; }
 .entry ol li                { list-style-type: decimal; }
@@ -207,7 +207,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     margin-bottom: 20px;
 	font: 14px Consolas,serif;
 	overflow:  auto;
-    word-wrap: break-word;
+    
    /* padding: 15px;*/
 }
 pre ol {
@@ -224,7 +224,7 @@ a.external:hover {background-position:right -14px;}
 .entry .meta                { text-align: center; color: #888; font-family: "Microsoft Yahei","Times New Roman",Times,serif; font-size: 13px; text-indent: 0; font-weight: 600; }
 .entry .meta .date          { color: #888; } .entry .meta .author { padding-right: 4px; }
 .entry .description         { padding: 8px 12px; text-align: center; color: #888; text-indent: 0; border-top: 1px dashed #a0a0a0; border-bottom: 1px dashed #a0a0a0; }
-.entry img                  { padding: 3px 3px; border-radius: 8px 8px; border: 1px solid #DEDEDE; box-shadow: 0 0 2px #d0d0d0; border-radius: 10px 10px; }
+.entry img                  { padding: .1% .1%; border-radius: 8px 8px; border: 1px solid #DEDEDE; box-shadow: 0 0 2px #d0d0d0; border-radius: 10px 10px; }
 .entry img.img-right        { margin: 5px 0px 5px 10px; display: inline; float: right; }
 .entry img.img-center       { margin: 5px auto; display: block; }
 .entry img.img-left         { margin: 5px 10px 5px 0; display: inline; float: left; }
