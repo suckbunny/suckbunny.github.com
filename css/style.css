@@ -74,8 +74,8 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 
 /** content **/
 .content                    { width: 100%; height: auto; min-height: 550px; }
-.content-cnt                { width: 65%; margin:  2% 22%; height:  auto; }
-.content-cnt .main          { width: 70%; height: auto; margin-right: 100px; float: left; }
+.content-cnt                { width: 65%; margin:  2% 18%; height:  auto; }
+.content-cnt .main          { width: 70%; height: auto; margin-right: 10%; float: left; }
 .content-cnt .main-excerpt  { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px dashed #bebebe; }
 .content-cnt .main-excerpt .date
                             { color: #888; }
