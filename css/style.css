@@ -15,6 +15,19 @@ html                        { color:#000;background:#fff; }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section                  { margin:0;padding:0; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
                             { display:block; }
+.wrapper {
+width: 100%; /* 也可以固定宽度 */
+height:0px;
+
+}
+.wrapper > div {
+display:inline-table; /* 如需支持IE8以下版本，用浮动来做 */
+width: calc(100% / 3); /* 此处运用了一个css3的表达式，将div三等分，IE8及以上可以支持，当然也可以根据需要设置固定值 */
+width: -webkit-calc(96% / 3);
+width: -moz-calc(100% / 3);
+height: 10%;
+font-size:smaller
+}                           
 body,button,input,select,textarea
                             { font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Microsoft Jhenghei"; }
 input,select,textarea       { font-size:100%; }
