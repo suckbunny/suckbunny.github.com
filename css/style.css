@@ -207,6 +207,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
     margin-bottom: 20px;
 	font: 14px Consolas,serif;
     word-break: break-all; 
+    white-space: pre-wrap;
    /* padding: 15px;*/
 }
 pre ol {
