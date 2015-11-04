@@ -74,7 +74,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 
 /** content **/
 .content                    { width: 100%; height: auto; min-height: 550px; }
-.content-cnt                { width: 65%; margin:  2% 17%; height:  auto; }
+.content-cnt                { width: 65%; margin:  2% 22%; height:  auto; }
 .content-cnt .main          { width: 70%; height: auto; margin-right: 100px; float: left; }
 .content-cnt .main-excerpt  { margin-bottom: 20px; padding: 10px 0; border-bottom: 1px dashed #bebebe; }
 .content-cnt .main-excerpt .date
@@ -97,7 +97,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .content-cnt .aside         { float: left; width: 249px; height: auto; color: #d8d8d8; }
 .content-cnt .aside .box    { padding: 20px 10px; margin: 10px 0 20px 0; background: url(/images/bg.png) repeat 0 0; box-shadow: 1px 2px 4px #000 inset; border-radius: 8px 8px; height: auto; }
 .content-cnt .aside .box img
-                            { width: 230px; height: 230px; }
+                            { width: 20%; height: 20%; }
 .content-cnt .aside .box p  { line-height: 20px; padding-top: 10px; }
 .content-cnt .aside .box .title
                             { font-size: 14px; line-height: 24px; border-bottom: 1px dashed #888; font-family: Georgia; }
