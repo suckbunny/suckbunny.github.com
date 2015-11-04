@@ -127,7 +127,7 @@ body                        { background: url(/images/body-bg.jpg) repeat 0 0; }
 .content-cnt .aside .box .title
                             { font-size: 14px; line-height: 24px; border-bottom: 1px dashed #888; font-family: Georgia; }
 .content-cnt .aside .box ul { padding: 10px 0 0; }
-.content-cnt .aside .box li { line-height: 20px; margin-bottom: 4px; color: #fefefe; word-wrap: break-word;}
+.content-cnt .aside .box li { line-height: 20px; margin-bottom: 4px; color: #fefefe; word-break:break-all;padding-left:12px; text-indent:-12px;}
 .content-cnt .aside .box li a
                             { margin-left: 8px; color: #a0a0a0; }
 .content-cnt .aside .box li a:hover
